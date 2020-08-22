@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="description" content="Name of your web site">
+    <meta name="author" content="Marketify">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>შენთან ერთად | 2020</title>
+
+    <!-- STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200i,300,300i,400,400i,500,500i,600,700,700i,800&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/stylem.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/animate/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/team.css" />
+
+    <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+    <!-- /STYLES -->
+</head>
+<body>
+    <!-- PRELOADER -->
+    <div class="arlo_tm_preloader">
+        <div class="spinner_wrap">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <!-- /PRELOADER -->
+    <!-- WRAPPER ALL -->
+    <div class="arlo_tm_all_wrap">
+        <div class="wrapper_inner">
+            <div class="arlo_tm_popup_news scrollable">
+                <a class="closer" href="#">Close</a>
+                <div class="container">
+                    <div class="news_inner"></div>
+                </div>
+            </div>
+            <!-- Topbar -->
+            <div class="arlo_tm_topbar">
+                <div class="topbar_inner">
+                    <div class="container">
+                        <div class="topbar_in">
+                            <div class="logo">
+                                <a href="#"><img src="img/logo/mobile.png" alt="" /></a>
+                            </div>
+                            <div class="trigger">
+                                <a href="#">
+                                    <span class="menu">მენიუ</span>
+                                    <span class="close">დახურვა</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="container">
+                        <div class="dropdown_inner">
+                            <ul>
+                                <li><a href="#home">მთავარი</a></li>
+                                <li><a href="#about">ჩვენ შესახებ</a></li>
+                                <li><a href="#team">ჩვენი გუნდი</a></li>
+                                <li><a href="#portfolio">ფოტო გალერეა</a></li>
+                                <li><a href="#news">სიახლეები</a></li>
+                                <li><a href="#contact">კონტაქტი</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Topbar -->
+            <!-- LEFTPART -->
+            <div class="arlo_tm_leftpart">
+                <div class="inner">
+                    <div class="logo">
+                        <a class="dark" href="#"><img src="img/logo/logo.png" alt="" /></a>
+                        <a class="light" href="#"><img src="img/logo/light.png" alt="" /></a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#home">მთავარი</a></li>
+                            <li><a href="#about">ჩვენ შესახებ</a></li>
+                            <li><a href="#team">ჩვენი გუნდი</a></li>
+                            <li><a href="#portfolio">ფოტო გალერეა</a></li>
+                            <li><a href="#news">სიახლეები</a></li>
+                            <li><a href="#contact">კონტაქტი</a></li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <div class="social">
+                            <ul>
+                                <li><a href="#"><i class="xcon-facebook"></i></a></li>
+                                <li><a href="#"><i class="xcon-twitter"></i></a></li>
+                                <li><a href="#"><i class="xcon-linkedin"></i></a></li>
+                                <li><a href="#"><i class="xcon-instagram"></i></a></li>
+                                <li><a href="#"><i class="xcon-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /LEFTPART -->
+            @RenderBody()
+
+        </div>
+    </div>
+    <!-- / WRAPPER ALL -->
+    @*<footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2020 - WithYouApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>*@
+    <!-- SCRIPTS -->
+    <script src="~/js/jquery.js"></script>
+    @*<script src="~/js/jq.js"></script>*@
+    <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
+    <script src="~/js/plugins.js"></script>
+    <script src="~/js/init.js"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/js/team.js"></script>
+    <!-- /SCRIPTS -->
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
