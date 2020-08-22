@@ -9,6 +9,7 @@
     <Content Remove="wwwroot\css\font\bpg_nino_mtavruli_normal.ttf" />
     <Content Remove="wwwroot\favicon.ico" />
     <Content Remove="wwwroot\img\logo\logo.png" />
+    <Content Remove="wwwroot\img\team\team-1.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +30,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="wwwroot\img\logo\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="wwwroot\img\team\team-1.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

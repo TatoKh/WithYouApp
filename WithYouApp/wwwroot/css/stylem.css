@@ -33,6 +33,7 @@
     font-family: 'bpg_nino_mtavruli_bold';
     src: url('font/bpg_nino_mtavruli_bold.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'bpg_nino_mtavruli_normal';
     src: url('font/bpg_nino_mtavruli_normal.ttf') format('truetype');
@@ -55,6 +56,7 @@ body {
     font-weight: 400;
     background-color: #fff;
     color: #6f6f6f;
+    cursor: crosshair;
 }
 
 svg {
@@ -890,7 +892,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
                 bottom: -25px !important;
                 left: 25px !important;
                 right: -25px !important;
-                border: 10px solid #000;
+                border: 10px solid #90CE9C;
             }
 
             .arlo_tm_about .leftbox .about_image_wrap img {
@@ -912,7 +914,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
             }
 
                 .arlo_tm_about .rightbox .about_title h3 .arlo_tm_animation_text_word {
-                    color: #ff214f;
+                    color: #90CE9C;
                 }
 
         .arlo_tm_about .rightbox .text {
@@ -921,7 +923,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
         }
 
             .arlo_tm_about .rightbox .text span {
-                color: #ff214f;
+                color: #90CE9C;
                 font-style: italic;
             }
 
@@ -1006,10 +1008,10 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
                 .arlo_tm_about .buttons ul li a {
                     text-decoration: none;
                     color: #fff;
-                    background-color: #ff214f;
+                    background-color: #90CE9C;
                     display: inline-block;
                     padding: 10px 45px;
-                    font-family: "Montserrat";
+                    font-family: bpg_nino_mtavruli_normal;
                     position: relative;
                     overflow: hidden;
                 }
@@ -1045,6 +1047,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 
     .arlo_title_holder h3 {
         text-transform: uppercase;
+        color: #90CE9C;
         font-weight: 700;
         font-size: 35px;
     }
@@ -1053,7 +1056,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
         display: inline-block;
         font-size: 14px;
         text-transform: uppercase;
-        color: #ff214f;
+        color: #6f6f6f;
         font-weight: 500;
     }
 
@@ -1455,9 +1458,9 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 
             .arlo_tm_testimonial .testimonial_content .content_inner .texts p {
                 color: #eee;
-                font-size: 18px;
+                font-size: 45px;
                 font-weight: 300;
-                margin-bottom: 32px;
+                margin-bottom: 20px;
             }
 
         .arlo_tm_testimonial .testimonial_content .author {
@@ -1702,7 +1705,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
         display: inline-block;
         background-color: #ff214f;
         padding: 7px 35px;
-        font-family: "Montserrat";
+        font-family: bpg_nino_mtavruli_normal;
         -webkit-transition: all .3s ease;
         -moz-transition: all .3s ease;
         -ms-transition: all .3s ease;

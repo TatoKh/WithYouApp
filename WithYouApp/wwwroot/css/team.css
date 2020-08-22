@@ -134,13 +134,16 @@ h6 {
 
 
 .section-header {
-    font-family: 'bpg_nino_mtavruli_bold';
+    font-family: 'bpg_nino_mtavruli_bold' !important;
+    padding-bottom: 100px !important;
+    color: #FAA61A !important;
 }
 /* Team Section
 --------------------------------*/
 #team {
-    background: #fff;
+    background: #f9f9f9;
     padding: 60px 0;
+    margin: 20px 0;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -154,6 +157,7 @@ h6 {
         position: relative;
         border-radius: 50%;
         overflow: hidden;
+        cursor: pointer;
     }
 
         #team .member .member-info {
@@ -184,7 +188,7 @@ h6 {
         }
 
         #team .member:hover .member-info {
-            background: rgba(0, 62, 128, 0.7);
+            background: rgba(181, 121, 14, 0.7);
             opacity: 1;
             transition: 0.4s;
         }

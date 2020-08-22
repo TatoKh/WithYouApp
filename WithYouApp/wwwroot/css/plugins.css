@@ -17,6 +17,10 @@ This file is made by Marketify (2019)
 	font-family: 'bpg_nino_mtavruli_normal';
 	src: url('font/bpg_nino_mtavruli_normal.ttf') format('truetype');
 }
+@font-face {
+	font-family: 'dejavu-sans';
+	src: url('font/dejavu-sans.ttf') format('truetype');
+}
 /*------------------------------------------------------------------*/ 
 /*	01) BASE
 /*------------------------------------------------------------------*/
@@ -68,7 +72,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	line-height: 1.4;
 	font-family: 'bpg_nino_mtavruli_bold';
-	color: #000;
 }
 h1 { font-size: 45px; }
 h2 { font-size: 36px; }
@@ -141,28 +144,25 @@ pre code { white-space: pre-wrap; }
 /*	02) FORM ELEMENTS
 /*------------------------------------------------------------------*/
 
-textarea{
-	border-radius:0;
-	font-size:13px;
-	resize:vertical;
-	font-family:"Raleway";
+textarea {
+	border-radius: 0;
+	font-size: 13px;
+	resize: vertical;
+	font-family: 'dejavu-sans';
 	letter-spacing: 1.2px !important;
-	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	-ms-box-sizing: border-box;     /* IE 10 + */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-	
-	line-height:1.4;
-	padding:10px!important;
-	width:100%;
-	border:1px solid #eee;
-	
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-ms-box-sizing: border-box; /* IE 10 + */
+	box-sizing: border-box; /* Opera/IE 8+ */
+	line-height: 1.4;
+	padding: 10px !important;
+	width: 100%;
+	border: 1px solid #eee;
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 input[type="text"],
 input[type="password"],
@@ -179,29 +179,25 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-	border-radius:0;
-	font-size:13px;
-	min-width:auto;
-	letter-spacing:1.4px;
-	
+	border-radius: 0;
+	font-size: 13px;
+	min-width: auto;
+	letter-spacing: 1.4px;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	-ms-box-sizing: border-box;     /* IE 10 + */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-	
-	font-family:"Raleway";
-	
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-ms-box-sizing: border-box; /* IE 10 + */
+	box-sizing: border-box; /* Opera/IE 8+ */
+	font-family: 'dejavu-sans'; 
 	line-height:1.6;
-	padding:10px!important;
-	height:44px;
-	vertical-align:middle;
-	border:1px solid #eee;
-	
+	padding: 10px !important;
+	height: 44px;
+	vertical-align: middle;
+	border: 1px solid #eee;
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 
 textarea:focus,
