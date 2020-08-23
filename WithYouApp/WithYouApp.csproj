@@ -7,6 +7,7 @@
   <ItemGroup>
     <Content Remove="wwwroot\css\font\bpg_nino_mtavruli_bold.ttf" />
     <Content Remove="wwwroot\css\font\bpg_nino_mtavruli_normal.ttf" />
+    <Content Remove="wwwroot\docs\Memorandumi - WithYou.pdf" />
     <Content Remove="wwwroot\favicon.ico" />
     <Content Remove="wwwroot\img\logo\logo.png" />
     <Content Remove="wwwroot\img\team\team-1.jpg" />
@@ -24,6 +25,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="wwwroot\css\font\bpg_nino_mtavruli_normal.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="wwwroot\docs\Memorandumi - WithYou.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="wwwroot\favicon.ico">
